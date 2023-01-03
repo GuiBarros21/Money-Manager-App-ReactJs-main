@@ -13,7 +13,7 @@ const MoneyDetails = props => {
         />
         <div>
           <p className="details-text">Your Balance</p>
-          <p className="details-money">Rs {balanceAmount}</p>
+          <p className="details-money">CAD {balanceAmount}</p>
         </div>
       </div>
       <div className="income-container">
@@ -24,7 +24,7 @@ const MoneyDetails = props => {
         />
         <div>
           <p className="details-text">Your Income</p>
-          <p className="details-money">Rs {incomeAmount}</p>
+          <p className="details-money">CAD {incomeAmount}</p>
         </div>
       </div>
       <div className="expenses-container">
